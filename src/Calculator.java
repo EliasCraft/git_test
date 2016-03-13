@@ -5,6 +5,8 @@ public class Calculator {
 
 	public static void main (String[]args){
 		
+		Functional func = new Functional();
+		
 		Scanner input = new Scanner(System.in);
 		
 		System.out.println("Enter the first number: ");
@@ -18,7 +20,7 @@ public class Calculator {
 		
 		input.close();
 		
-		System.out.println("The result is: " +Functional.calcAct(n1, n2, act));
+		System.out.println("The result is: " +func.calcAct(n1, n2, act));
 		
 	}
 	
